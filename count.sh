@@ -4,5 +4,5 @@
 for filename in data/*.txt
 do
     echo $filename
-    grep -v Species $filename | cut -d, -f2 | sort | uniq -c
+    grep -v Species $filename | cut -d, -f2 | sort -n -r | uniq -c
 done
