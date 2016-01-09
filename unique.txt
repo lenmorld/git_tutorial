@@ -1,0 +1,245 @@
+data/aiden_2015.txt
+      1 marlin
+      1 shark
+data/fish.txt
+      1 cod
+      1 flying fish
+      2 marlin
+      3 shark
+      1 tuna
+      1 turtle
+data/grep.txt
+      1       1 cod
+      1       1 flying fish
+      1       1 tuna
+      1       1 turtle
+      1       2 marlin
+      1       3 shark
+data/history.txt
+      1     1  git --version 
+      1     2  git config --global user.name "Lenny LD"
+      1     3  git config --global user.email "lizone177@gmail.com"
+      1     4  git config --list
+      1     5  clear
+      1     6  sudo
+      1     7  git config --list
+      1     8  git config user.email
+      1     9  git help
+      1    10  git commit
+      1    11  git help commit
+      1    12  git --config user.name "lizzy"
+      1    13  git config -global user.name "lizzy"
+      1    14  git config --global user.name "lizzy"
+      1    15  config --list
+      1    16  git config --list
+      1    17  pwd
+      1    18  cd ~
+      1    19  cd ~/Desktop/
+      1    20  ls
+      1    21  pwd
+      1    22  cd GITPROJECT/
+      1    23  git init
+      1    24  ls
+      1    25  ls
+      1    26  ls -la
+      1    27  clear
+      1    28  ls
+      1    29  ls -l
+      1    30  ls
+      1    31  git add . 
+      1    32  git commit it -m "1st commit"
+      1    33  git commit -m "1st commit"
+      1    34  git log
+      1    35  git log --author="lizzy"
+      1    36  git log --author="lenny"
+      1    37  git status
+      1    38  git status
+      1    39  git status
+      1    40  git add second.txt
+      1    41  git status
+      1    42  git commit -m "adding secind file to repo"
+      1    43  git log
+      1    44  git commit third.txt
+      1    45  git add third.txt
+      1    46  git commit -m "third file commit"
+      1    47  git status
+      1    48  git log
+      1    49  clear
+      1    50  git status
+      1    51  git add first.txt 
+      1    52  git status
+      1    53  git commit -m "modified first file"
+      1    54  git status
+      1    55  git log
+      1    56  git status
+      1    57  git add .
+      1    58  git commit -m "modified 2 and 3"
+      1    59  git status
+      1    60  git diff
+      1    61  git add first.txt 
+      1    62  git commit -m "first.txt changed"
+      1    63  git diff
+      1    64  git diff
+      1    65  git add second.txt third.txt 
+      1    66  git commit -m "file 2 and 3 modified recently"
+      1    67  git status 
+      1    68  git diff
+      1    69  git diff --staged
+      1    70  git diff
+      1    71  git diff HEAD
+      1    72  git add first.txt 
+      1    73  git diff
+      1    74  git diff HEAD
+      1    75  git diff --staged
+      1    76  git commit -m "changes"
+      1    77  git diff --staged
+      1    78  git diff HEAD
+      1    79  git rm third.txt
+      1    80  git status
+      1    81  git commit -m "deleted third.txt"
+      1    82  git status
+      1    83  git add home.txt
+      1    84  git rm first.txt
+      1    85  git status
+      1    86  git commit -m "renamed first.txt to home.txt"
+      1    87  git mv second.txt file2.txt
+      1    88  git status
+      1    89  mkdir LoveNotes
+      1    90  git mv file2.txt LoveNotes/
+      1    91  git status
+      1    92  git commit -m "moved file"
+      1    93  clkear
+      1    94  clear
+      1    95  cd ..
+      1    96  cd Dogs
+      1    97  git status
+      1    98  git init
+      1    99  git status
+      1   100  clear
+      1   101  cd ..
+      1   102  cd Dogs_site/
+      1   103  git status
+      1   104  git add .
+      1   105  git commit -m "first commit for website"
+      1   106  git status
+      1   107  git diff
+      1   108  git diff
+      1   109  git commit -am "some changes in about and index"
+      1   110  git status
+      1   111  git status
+      1   112  git diff
+      1   113  git checkout -- index.html
+      1   114  git status
+      1   115  cd ..
+      1   116  cd GITPROJECT/
+      1   117  ls
+      1   118  gedit home.txt
+      1   119  git status
+      1   120  git add .
+      1   121  git status
+      1   122  git reset HEAD filey.txt
+      1   123  git status
+      1   124  git status
+      1   125  git add filey.txt 
+      1   126  git commit "filey changed haha"
+      1   127  git commit -m "filey changed haha"
+      1   128  git log
+      1   129  git commit -am "some bad code"
+      1   130  git log
+      1   131  git checkout 8ae21 -- filey.txt
+      1   132  git commit -m "returned to good version"
+      1   133  ls
+      1   134  cd ..
+      1   135  ls
+      1   136  mkdir github1
+      1   137  ls
+      1   138  cd github1/
+      1   139  ls
+      1   140  git init
+      1   141  git status
+      1   142  git add .
+      1   143  git commit -m "first commit"
+      1   144  git log
+      1   145  git remote add githubrepo https://github.com/lenmorld/github1.git
+      1   146  git push -u githubrepo master
+      1   147  git push -u github1repo master
+      1   148  git remote
+      1   149  git push -u githubrepo master
+      1   150  cd Desktop/
+      1   151  ls
+      1   152  whoami
+      1   153  whereami
+      1   154  pwd
+      1   155  ls
+      1   156  pwd
+      1   157  clear
+      1   158  pwd
+      1   159  tree
+      1   160  ls
+      1   161  ls /c
+      1   162  ls /d
+      1   163  ls /e
+      1   164  ls /f
+      1   165  ls /home
+      1   166  ls /home/
+      1   167  ls /home/D
+      1   168  ls /
+      1   169  ls -f
+      1   170  ls -F
+      1   171  ls -F /
+      1   172  ls --classify
+      1   173  ls -c
+      1   174  ls
+      1   175  cd Desktop/
+      1   176  cd ..
+      1   177  ls
+      1   178  mkdir Tutorial
+      1   179  cd Tutorial/
+      1   180  ls
+      1   181  pwd
+      1   182  mkdir f1
+      1   183  ls
+      1   184  ls
+      1   185  rm -rf f1
+      1   186  ls
+      1   187  ls -a
+      1   188  ls -a
+      1   189  cd ..
+      1   190  ls
+      1   191  ls
+      1   192  pwd
+      1   193  cd Desktop/
+      1   194  cd ..
+      1   195  cd Tutorial/
+      1   196  ls
+      1   197  wc fish.txt
+      1   198  wc -l
+      1   199  wc -l
+      1   200  head -5 fish.txt
+      1   201  tail fish.txt
+      1   202  cat fish.txt fish.txt 
+      1   203  head -8 fish.txt > temp.txt
+      1   204  ls
+      1   205  history 
+      1   206  history > history.txt
+data/lenny_2015.txt
+      1 cod
+      1 flying fish
+      2 marlin
+      3 shark
+      1 tuna
+      1 turtle
+data/matt_2014.txt
+      2 turtle
+data/matt_2015.txt
+      2 turtle
+data/morefish.txt
+      1 marlin
+      1 shark
+data/temp.txt
+      1 cod
+      1 flying fish
+      1 marlin
+      2 shark
+      1 tuna
+      1 turtle
